@@ -1,13 +1,11 @@
-document.getElementById('menuToggle').addEventListener('click', ()=>{
-    document.getElementById('navbar').classList.toggle('show');
-});
-
 // Switch main product image on thumbnail click
 document.querySelectorAll('.thumb').forEach(thumb =>{
     thumb.addEventListener('click', ()=>{
         document.getElementById('mainImage').src = thumb.src;
     });
 });
+
+
 
 const slider = document.getElementById("slider");
 const slides = document.querySelectorAll(".slide");
@@ -53,4 +51,5 @@ nextBtn.addEventListener("click", () =>{
 });
 
 goToSlide(0);
+
 
