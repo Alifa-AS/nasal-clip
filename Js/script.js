@@ -6,7 +6,7 @@ document.querySelectorAll('.thumb').forEach(thumb =>{
 });
 
 
-
+//nasal slider
 const slider = document.getElementById("slider");
 const slides = document.querySelectorAll(".slide");
 const dotContainer = document.getElementById("dots");
